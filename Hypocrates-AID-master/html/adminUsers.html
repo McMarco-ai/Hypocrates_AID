@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Users</title>
+    <link rel="icon" href="../img/smallLogoWhite.png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/adminUsers.css">
+</head>
+<body>
+    
+    <div id="navbarContainer">
+        <ul class="nav" id="navbar">
+            <img src="../img/smallLogoWhite.png" id="logo" onclick="location.href='home.html'">
+
+            <div class="box" id="leaderboard"> <a href="../html/leaderboard.html"> LeaderBoard </a></div>
+        </ul>
+    </div>
+
+    <ul class="nav nav-tabs" id="navTabs">
+        <li class="nav-item">
+            <a class="nav-link" href="adminDoctors.html">Doctors</a>
+        </li>
+
+        <li class="nav-item">
+            <a class="nav-link active" href="adminUsers.html">Users</a>
+        </li>
+
+        <li class="nav-item">
+            <a class="nav-link" href="adminAppointments.html">Appointments</a>
+        </li>
+    </ul>
+
+    <p id="pUsersTable"></p>
+
+    <script type="module" src="../js/view/adminUsers.js"></script>
+</body>
+</html>

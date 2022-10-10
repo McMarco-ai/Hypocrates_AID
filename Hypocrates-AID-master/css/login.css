@@ -1,0 +1,86 @@
+body{
+
+    background-image: url("../img/greyGradient.png");
+}
+
+#navbar{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: black;
+    height: 80px;
+    padding: 15px;
+}
+
+.box a{
+
+    text-decoration: none;
+    color: white;
+}
+
+.box{
+
+    padding:15px;
+    border-bottom: 5px solid transparent;
+    align-self: center;
+    transition-duration: 0.5s;
+}
+
+.box:hover{
+
+    border-bottom: 5px solid red;
+}
+
+#logo{
+
+    margin-left: 25px;
+    height: 50px;
+}
+
+#forgotPassword{
+
+    margin-right: 25px;
+    align-self: center;
+    color: white;
+}
+
+#loginContainer{
+
+    background-image: url("../img/statue.png");
+    background-position: center;
+    background-size: cover;
+    box-shadow: 0 5px 5px grey;
+
+    display: flex;
+    justify-content:center;
+    align-items: flex-end;
+
+    width: 450px;
+    height: 700px;
+    margin-top: 3%;
+}
+
+#loginUsername{
+
+    margin-bottom: 8%;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#loginPassword{
+
+    margin-bottom: 12%;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#buttonPlaceHolder{
+    
+    display: flex;
+    margin-bottom: 30%;
+    justify-content: center;
+    align-content: center;
+}

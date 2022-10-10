@@ -1,0 +1,59 @@
+body{
+    background-image: url("../img/greyGradient.png");
+    background-image: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#navbarContainer{
+
+    height: 80px;
+    margin: 0;
+}
+
+#navbar{
+    
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    background-color: black;
+    height: 80px;
+    width: 100%;
+    padding: 15px;
+}
+
+#logo{
+
+    align-self: center;
+    margin-left: 25px;
+    height:50px;
+}
+
+.box{
+
+    padding:15px;
+    margin-left: 25px;
+    border-bottom: 5px solid transparent;
+    color: white;
+    align-self: center;
+    transition-duration: 0.5s;
+}
+
+.box:hover{
+    border-bottom: 5px solid red;
+}
+
+.box a{
+
+    text-decoration: none;
+    color: white;
+}
+
+#usersTable{
+    
+    margin-left: 20%;
+    margin-right: 20%;
+    border-bottom: 1px solid grey;
+    width: 60%;
+}

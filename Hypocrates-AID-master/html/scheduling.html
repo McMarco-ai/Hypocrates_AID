@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scheduling</title>
+    <link rel="icon" href="../img/smallLogoWhite.png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/scheduling.css">
+    <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA9v6CJD68R4XtEs5Ue8Q3kWa9nMdxohVA"></script>
+</head>
+
+<body>
+    
+    <div id="navbarContainer">
+        <ul class="nav" id="navbar">
+            <img src="../img/smallLogoWhite.png" id="logo" onclick="location.href='home.html'">
+
+            <div class="box" id="profile" > <a href="../html/profile.html"> Profile </a> </div>
+
+            <div class="box" id="leaderboard"> <a href="../html/leaderboard.html"> LeaderBoard </a> </div>
+            
+        </ul>
+    </div>
+
+        <div id="map"></div>
+
+        <div id="radioFilterDiv">
+            
+            <p id="pDoctorFilters"></p>
+
+        </div>
+
+        <div class="container" id="schedulingContainer">
+            <p id="pSelectedDoctor"></p> <br>
+
+            <form id="confirmAppointmentForm">
+                <div id="buttonPlaceHolder">
+                    <input type="submit" class="btn btn-danger" id="submitButton">
+                </div>
+            </form>
+        </div>
+
+    
+    <script async type="module" src="../js/view/scheduling.js"></script>
+    
+</body>
+</html>

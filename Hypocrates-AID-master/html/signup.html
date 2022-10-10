@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp</title>
+    <link rel="icon" href="../img/smallLogoWhite.png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/signup.css">
+</head>
+
+<body>
+
+    <ul class="nav" id="navbar">
+        <img src="../img/smalllogoWhite.png" id="logo" onclick="location.href='home.html'">
+    
+        <div class="box" id="signedup"><a href="login.html">Already SignedUp?</a></div>
+    </ul>
+
+    <div class="container" id="signupContainer">
+        <form id="signupForm">
+
+                    <input type="text" id="signupUsername" class="form-control" placeholder="Username" required>
+                    <input type="number" id="signupAge" class="form-control" placeholder="Age" required>
+                    <input type="text" id="signupAdress" class="form-control" placeholder="Adress" required>
+                    <input type="password" id="signupPassword" class="form-control" placeholder="Password" required>
+                    <input type="password" id="signupConfirmPassword" class="form-control" placeholder="Confirm Password" required>
+
+                    <div id="buttonPlaceHolder">
+                        <input type="submit" class="btn btn-light">
+                    </div>
+        </form>                             
+    </div>    
+
+
+       <script type="module" src="../js/view/signup.js"></script>
+</body>
+</html>
